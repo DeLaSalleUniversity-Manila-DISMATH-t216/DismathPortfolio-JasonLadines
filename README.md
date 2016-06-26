@@ -130,13 +130,13 @@ After the question, we formally discussed about the laws involved with logical e
 
 | Law                 | Equivalence                                                     |
 |---------------------|-----------------------------------------------------------------|
-| Identity Law        | p ∧ T = p p ∨ F = p                                             |
-| Domination Law      | p ∨ T = T p ∧ F = F                                             |
-| Idempotent Law      | p ∨ p = p p ∧ p = p                                             |
+| Identity Law        | p ∧ T = p; p ∨ F = p                                             |
+| Domination Law      | p ∨ T = T ;p ∧ F = F                                             |
+| Idempotent Law      | p ∨ p = p ;p ∧ p = p                                             |
 | Double Negation Law | ¬(¬p) = p                                                       |
-| Commutative Law     | p ∨ q = q ∨ p p ∧ q = q ∧ p                                     |
-| Associative Law     | (p ∨ q) ∨ r = p ∨ (q ∨ r) (p ∧ q) ∧ r = p ∧ (q ∧ r)             |
-| Distribute Law      | p ∨ (q ∧ r) = (p ∨ q) ∧ (p ∨ r) p ∧ (q ∨ r) = (p ∧ q) ∨ (p ∧ r) |
-| De Morgan's Law     | ¬(p ∧ q) = ¬p ∨ ¬q  ¬(p ∨ q) = ¬p ∧ ¬q                          |
-| Absorption Law      | p ∨ (p ∧ q) = p p ∧ (p ∨ q) = p                                 |
-| Negation Law        | p ∨ ¬p = T p ∧ ¬p = F                                           |
+| Commutative Law     | p ∨ q = q ∨ p ;p ∧ q = q ∧ p                                     |
+| Associative Law     | (p ∨ q) ∨ r = p ∨ (q ∨ r); (p ∧ q) ∧ r = p ∧ (q ∧ r)             |
+| Distribute Law      | p ∨ (q ∧ r) = (p ∨ q) ∧ (p ∨ r); p ∧ (q ∨ r) = (p ∧ q) ∨ (p ∧ r) |
+| De Morgan's Law     | ¬(p ∧ q) = ¬p ∨ ¬q;  ¬(p ∨ q) = ¬p ∧ ¬q                          |
+| Absorption Law      | p ∨ (p ∧ q) = p; p ∧ (p ∨ q) = p                                 |
+| Negation Law        | p ∨ ¬p = T; p ∧ ¬p = F                                           |
