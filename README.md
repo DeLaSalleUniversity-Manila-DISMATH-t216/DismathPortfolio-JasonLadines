@@ -140,3 +140,20 @@ After the question, we formally discussed about the laws involved with logical e
 | De Morgan's Law     | ¬(p ∧ q) = ¬p ∨ ¬q;  ¬(p ∨ q) = ¬p ∧ ¬q                          |
 | Absorption Law      | p ∨ (p ∧ q) = p; p ∧ (p ∨ q) = p                                 |
 | Negation Law        | p ∨ ¬p = T; p ∧ ¬p = F                                           |
+
+To test if we learned from the class today, each of us answered some questions from the Chapter 1.3 Questions found on the book. The questions that I was able to asnwer are:
+
+7.) Use De Morgan's laws to find the negation of each of the following statements.
+d.) Ibrahim is smart and hard working.
+Answer: Ibrahim is not smart or not hard working.
+
+15.) Determine whether (¬q ∧ (p  → q))  → ¬p is a tautology.
+Answer: True
+
+| p | q | ¬p | ¬q | p → q | ¬q ∧ (p → q) | (¬q ∧ (p → q)) → ¬p |
+|---|---|----|----|-------|--------------|---------------------|
+| T | T | F  | F  | T     | F            | T                   |
+| T | F | F  | T  | F     | F            | T                   |
+| F | T | T  | F  | T     | F            | T                   |
+| F | F | T  | T  | T     | T            | T                   |
+
