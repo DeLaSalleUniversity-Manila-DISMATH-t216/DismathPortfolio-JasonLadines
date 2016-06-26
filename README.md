@@ -157,3 +157,10 @@ Answer: True
 | F | T | T  | F  | T     | F            | T                   |
 | F | F | T  | T  | T     | T            | T                   |
 
+The final topic we discussed for the day was about quantifiers. Quantifiers is an important element for propositions since it gives the range of elements in which a proposition is applicable. There are two types of quantifiers which are universal quantifiers and existential quantifiers.
+
+The universal quantifier is defined as, "P(x) for all values of x in the domain." It is represented by an inverted A. For the following use of the universal quantifier inverted A, 'invA' will be used. The 'invA'xP(x) is a universal quantifier that denotes the universal quantification of P(x). It is read as "for all xP(x)" or :for every xP(x)." To prove that a universal quantifier is false for a certain P(x), a counterexample is needed. 
+
+The existential quantifier is defined as, "There exists an element x in the domain such that P(x)." It is represented by an E which is rotated 180 degrees. For the following use of the existential quantifier inverted E, 'invE' will be used. The 'invE'xP(x) denotes the existential quantification of P(x).
+
+To end the class, some of us were asked questions about quantifiers. I was asked the question, what is the equivalent of ¬('invA'xP(x)). Answer: 'invE'x¬P(x). The answer means that a universal quantification of a P(x) is false if there exists a false element.
