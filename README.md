@@ -166,3 +166,32 @@ The existential quantifier is defined as, "There exists an element x in the doma
 To end the class, some of us were asked questions about quantifiers. I was asked the question, what is the equivalent of ¬(∀xP(x)). Answer: ∃x¬P(x). The answer means that a universal quantification of a P(x) is false if there exists a false element.
 
 ##(June 23, 2016)
+We started the meeting by reviewing about the last topic discussed during the previous meeting which were about universal and existential quantifiers. After the review, we proceeded to answering the Chapter 1.4 questions. The questions that I was able to answer are:
+
+5.) Let P(x) be the statement "x spends more than five hours every weekday in class," where the domain for x consists of all students. Expresseach of these quantifications in English.
+b.) ∀xP(x)
+Answer: All students spend more than five hourse every weekday in class.
+
+7.) Translate these statements into English, where C(x) is "x is a comedian" and F(x) is "x is funny" and the domain consists of all people.
+
+a.) and b.) Explanation between the difference of ∀x((C(x) →  F(x))  and ∀x((C(x) ∧ F(x)) .
+Answer: Both of the statements can be translated into one statement, "All comedians are funny," and they are both still correct. The difference between them is that the statement in a.)  ∀x((C(x) →  F(x))  can be interpreted on two more ways. Since a conditional statement is true when p is T when q is T and when q is F, the statement can also be true if C(x) is F and F(x) is true or false. On the other hand, since the statement in b.) ∀x((C(x) ∧ F(x)) is using a logical operator AND, the statement can only be true if p is T and q is T.
+
+d.) ∃x(C(x) ∧ F(x)) 
+Answer: Some comedians are funny.
+
+11.) Let P(x) be the statement "x = x^2." If the domain consists of integers, what are these truth values?
+c.) P(2)
+Answer: False
+
+13.) Determine the truth value of each of these statements if the domain consists of all integers.
+d.) ∀n(3n <= 4n)
+Answer: False
+
+17.) Suppose that the domain of the propositional function P(x) consists of integers 0, 1, 2, 3, and 4. Write out each of these propositions using disjunctions, conjunctions, and negations.
+c.) ∃x¬P(x)
+Answer: Negation and Disjunction
+
+After we answered the questions on Chapter 1.4, we were given a reading assignment about Chapter 1.5 Nested Quantifiers.
+
+Nested Quantifiers...
