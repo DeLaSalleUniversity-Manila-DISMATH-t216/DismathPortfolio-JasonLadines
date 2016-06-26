@@ -195,3 +195,15 @@ Answer: Negation and Disjunction
 After we answered the questions on Chapter 1.4, we were given a reading assignment about Chapter 1.5 Nested Quantifiers.
 
 Nested Quantifiers...
+
+To further test our knowledge about what we have learned so far, we were asked some questions from Chapter 1.5. The questions that was asked to me was:
+
+1.) Translate these statements into English, where the domain for each variable consists of all real numbers.
+c.) ∀x∀y∃z(xy = z)
+Answer: For all x and for all y, there exists a z such that xy is equal to z.
+
+As a proof that we did our reading assignment, we were given another assignment which is to answer question numbers 5 to 9 in Chapter 1.5.
+
+The last topic we discussed during this meeting was about rules of inference. Rules of inference is a basic tool in order to establish the truth value of a statement. It is used to deduce new statements from other statements to create a new valud argument. Note that in mathematics, proofs are defined as valid arguments that establishes the truth value of mathematical statements. It is an argument since it is a sequence of statements that ends up with a conclusion. It is valid since the conclusion must follow the truth of the preceding statement which is the argument or premise.
+
+The rules of inference that discussed about are:
