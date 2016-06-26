@@ -127,3 +127,16 @@ We started the discussion by explaining about Tautology, Contradiction and Conti
 To continue the discussion about the laws involved in logical equivalences, we were asked about the logical equivalent of a conditional statement, p → q, using logical operators AND, OR or NOT. Together with Lea, we were able to answer its logical equivalent which is ¬p  ∨ q.   
 
 After the question, we formally discussed about the laws involved with logical equivalences between propositions. The laws and their logical equivalences are as follows:
+
+| Law                 | Equivalence                                                     |
+|---------------------|-----------------------------------------------------------------|
+| Identity Law        | p ∧ T = p p ∨ F = p                                             |
+| Domination Law      | p ∨ T = T p ∧ F = F                                             |
+| Idempotent Law      | p ∨ p = p p ∧ p = p                                             |
+| Double Negation Law | ¬(¬p) = p                                                       |
+| Commutative Law     | p ∨ q = q ∨ p p ∧ q = q ∧ p                                     |
+| Associative Law     | (p ∨ q) ∨ r = p ∨ (q ∨ r) (p ∧ q) ∧ r = p ∧ (q ∧ r)             |
+| Distribute Law      | p ∨ (q ∧ r) = (p ∨ q) ∧ (p ∨ r) p ∧ (q ∨ r) = (p ∧ q) ∨ (p ∧ r) |
+| De Morgan's Law     | ¬(p ∧ q) = ¬p ∨ ¬q  ¬(p ∨ q) = ¬p ∧ ¬q                          |
+| Absorption Law      | p ∨ (p ∧ q) = p p ∧ (p ∨ q) = p                                 |
+| Negation Law        | p ∨ ¬p = T p ∧ ¬p = F                                           |
