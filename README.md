@@ -207,3 +207,18 @@ As a proof that we did our reading assignment, we were given another assignment 
 The last topic we discussed during this meeting was about rules of inference. Rules of inference is a basic tool in order to establish the truth value of a statement. It is used to deduce new statements from other statements to create a new valud argument. Note that in mathematics, proofs are defined as valid arguments that establishes the truth value of mathematical statements. It is an argument since it is a sequence of statements that ends up with a conclusion. It is valid since the conclusion must follow the truth of the preceding statement which is the argument or premise.
 
 The rules of inference that discussed about are:
+
+| Name                   | Tautology                      |
+|------------------------|--------------------------------|
+| Modus ponens           | (p ∧ (p → q)) → q              |
+| Modus tollens          | (¬q ∧ (p → q)) → ¬p            |
+| Hypothetical syllogism | ((p → q) ∧ (q → r)) → (p → r)  |
+| Disjunctive syllogism  | ((p ∨ q) ∨ ¬p) → q             |
+| Addition               | p → (p ∨ q)                    |
+| Simplification         | (p ∧ q) → p                    |
+| Conjunction            | ((p) ∧ (q)) → (p ∧ q)          |
+| Resolution             | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |
+
+We ended the class with each of us giving a statement which is equivalent to a specific rule of inference. In my case, I was asked to make an example of simplication in English. The example I gave was, "If Lea is intelligent and kind, then Lea is intelligent." which is equivalent to (p ∧ q) → p.
+
+##Assignment No. 2:
