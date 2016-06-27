@@ -222,3 +222,17 @@ The rules of inference that discussed about are:
 We ended the class with each of us giving a statement which is equivalent to a specific rule of inference. In my case, I was asked to make an example of simplication in English. The example I gave was, "If Lea is intelligent and kind, then Lea is intelligent." which is equivalent to (p ∧ q) → p.
 
 ##Assignment No. 2:
+###Chapter 1.5
+
+5.) Let W(x,y) mean that student x has visited website y, where the domain for x consists of all students in your school and the domain for y consists of all websites. Express each of these statements by a simple English sentence.
+d.) ∃y(W(Ashok Puri, y) ∧ W(Cindy Yoon, y))
+
+7.) Let T(x,y) mean that student x likes cuisine y, where the domain for x consists of all students at your school and the domain for y consists of all cuisines. Express each of these statements by a simple English sentence.
+e.) ∃x∃z∀y(T(x,y)  ↔  T(z,y))
+
+9.) Let L(x,y) be the statement "x loves y", where the domain for both x any consists of all people in the world. Use quantifiers to express each of these statements.
+f.) There is somebody whom no one loves.
+
+###Chapter 1.6
+35.) Determine whether this argument, taken from Kalish and Montague [KaMo64], is valid.
+      If Superman were able and willing to prevent evil,he would do so. If Superman were unable to prevent evil, he would be impotent; if he were unwilling to prevent evil, he would be malevolent. Superman does not prevent evil. If Superman exists, he is nether impotent nor malevolent. Therefore, Superman does not exist.
