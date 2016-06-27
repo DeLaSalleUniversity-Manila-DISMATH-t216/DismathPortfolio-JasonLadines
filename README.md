@@ -11,7 +11,8 @@ We ended our first day of meeting with choosing a time and day schedule for our 
 ##(June 14, 2016)
 LEAP Day (No Classes)
 
-##Week 2 (June 16, 2016)
+#Week 2 
+##(June 16, 2016)
 Our next meeting was the start of our official lesson. On this day, we discussed more about propositions. This included the different operations that can be used with the propositional variables. The following are the operations that can be used on propositional variables:
 
 | Operation             | Logical Equivalent | Symbol | Definition                                       |
@@ -120,7 +121,8 @@ f.) (¬p ↔ ¬q) ↔ (p ↔ q)
 | F | T | T  | F  | F       | F     | T                   |
 | F | F | T  | T  | T       | T     | T                   |
 
-##Week 3 (June 21,2016)
+#Week 3 
+##(June 21,2016)
 On this day, we started discussing about the Chapter 1.3 of the book. As an introduction, Sir asked us if we know about some laws that pertains to logical equivalences. The first questions was asked to me. The questions was if i know how to define the associative property. I was able to answer the question by showing the equivalence, "(p ∧ q) ∧ r = p   ∧ (q  ∧  r)."
 
 We started the discussion by explaining about Tautology, Contradiction and Contingency. I was able to describe each of them when Sir asked about them. Tautology is a compound proposition which is always true. Contradiction is a compound proposition which is always false. Contingency is a compound proposition which is neither a tautology nor a contradiction. In addition to this, the logical operators which are considered as natural partners for tautology and contradiction are given. OR is a natural partner of tautology and AND is a natural partner of contradiction.
