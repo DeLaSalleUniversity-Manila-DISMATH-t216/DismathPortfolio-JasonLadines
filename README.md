@@ -1,6 +1,7 @@
 # DismathPortfolio-JasonLadines
 
-##Week 1 (June 9,2016)
+#Week 1 
+##(June 9, 2016)
 On our first day of meeting, we were oriented about the course Discrete Mathematics. We also started with the first topic which is the proposition. A proposition is a declarative statement that is either true or false.
 
 For our first exercise, each of us were given a question to be answered. The question that was asked to me was how to make the statement "x+9=11" a proposition. That statement is not a proposition since it can be true or false depending on the value of x. I was able to answer the questions by adding "...if x=2" to the statement. The statement "x+9=11 if x=2" is now a proposition since the statement becomes true.
