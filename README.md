@@ -214,7 +214,7 @@ The rules of inference that discussed about are:
 | Modus ponens           | (p ∧ (p → q)) → q              |
 | Modus tollens          | (¬q ∧ (p → q)) → ¬p            |
 | Hypothetical syllogism | ((p → q) ∧ (q → r)) → (p → r)  |
-| Disjunctive syllogism  | ((p ∨ q) ∨ ¬p) → q             |
+| Disjunctive syllogism  | ((p ∨ q) ∧ ¬p) → q             |
 | Addition               | p → (p ∨ q)                    |
 | Simplification         | (p ∧ q) → p                    |
 | Conjunction            | ((p) ∧ (q)) → (p ∧ q)          |
@@ -243,12 +243,12 @@ Answer: ∃x∀y¬L(y,x)
       
       Answer:
       Let: x be the domain Superman.
-	      A(x) - x is able to prevent evil
-	      W(x) - x is willing to prevent evil
-	      P(x) - x prevents evil
-	      I(x) - x is impotent
-	      M(x) - x is malevolent
-	      E(x) - x exists
+	      A - x is able to prevent evil
+	      W - x is willing to prevent evil
+	      P - x prevents evil
+	      I - x is impotent
+	      M - x is malevolent
+	      E - x exists
 	      
       So, the statements can be written as:
       A. (A ∧ W) → P
