@@ -287,7 +287,7 @@ Answer: ∃x∀y¬L(y,x)
       I ∨ M 
       = ¬(I ∨ M) 
       = ¬I ∧ ¬M
-      Using Modus tollens on  ¬I ∧ ¬M and ¬E,
+      Using Modus tollens on  ¬I ∧ ¬M and E,
       ¬(¬I ∧ ¬M)
       E → (¬I ∧ ¬M)
       = ¬E
