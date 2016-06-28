@@ -249,12 +249,14 @@ Answer: ∃x∀y¬L(y,x)
 	      I(x) - x is impotent
 	      M(x) - x is malevolent
 	      E(x) - x exists
+	      
       So, the statements can be written as:
       A. (A(x) ∧ W(x)) → P(x)
       B. ¬A(x) → I(x)
       C. ¬W(x) → M(x)
       D. ¬P(x)
       E. E(x) → (¬M(S) ∧ ¬I(S))
+      
       Solution:
       Using Modus tollens on A and D,
       ¬P
@@ -285,9 +287,10 @@ Answer: ∃x∀y¬L(y,x)
       I ∨ M 
       = ¬(I ∨ M) 
       = ¬I ∧ ¬M
-      Using Modus tollens on  ¬I ∧ ¬M,
+      Using Modus tollens on  ¬I ∧ ¬M and ¬E,
       ¬(¬I ∧ ¬M)
       E → (¬I ∧ ¬M)
       = ¬E
-      Finals Answer:
+      
+      Final Answer:
       Argument is VALID.
