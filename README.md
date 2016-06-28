@@ -197,8 +197,6 @@ Answer: Negation and Disjunction
 
 After we answered the questions on Chapter 1.4, we were given a reading assignment about Chapter 1.5 Nested Quantifiers.
 
-Nested Quantifiers...
-
 To further test our knowledge about what we have learned so far, we were asked some questions from Chapter 1.5. The questions that was asked to me was:
 
 1.) Translate these statements into English, where the domain for each variable consists of all real numbers.
@@ -229,13 +227,67 @@ We ended the class with each of us giving a statement which is equivalent to a s
 
 5.) Let W(x,y) mean that student x has visited website y, where the domain for x consists of all students in your school and the domain for y consists of all websites. Express each of these statements by a simple English sentence.
 d.) ∃y(W(Ashok Puri, y) ∧ W(Cindy Yoon, y))
+Answer: There exists a website which Ashok Puri and Ciny Yoon has visited.
 
 7.) Let T(x,y) mean that student x likes cuisine y, where the domain for x consists of all students at your school and the domain for y consists of all cuisines. Express each of these statements by a simple English sentence.
 e.) ∃x∃z∀y(T(x,y)  ↔  T(z,y))
+Answer: There exists two students at your school who likes the same group of cuisines.
 
 9.) Let L(x,y) be the statement "x loves y", where the domain for both x any consists of all people in the world. Use quantifiers to express each of these statements.
 f.) There is somebody whom no one loves.
+Answer: ∃x∀y¬L(y,x)
 
 ###Chapter 1.6
 35.) Determine whether this argument, taken from Kalish and Montague [KaMo64], is valid.
       If Superman were able and willing to prevent evil,he would do so. If Superman were unable to prevent evil, he would be impotent; if he were unwilling to prevent evil, he would be malevolent. Superman does not prevent evil. If Superman exists, he is nether impotent nor malevolent. Therefore, Superman does not exist.
+      
+      Answer:
+      Let: x be the domain Superman.
+	      A(x) - x is able to prevent evil
+	      W(x) - x is willing to prevent evil
+	      P(x) - x prevents evil
+	      I(x) - x is impotent
+	      M(x) - x is malevolent
+	      E(x) - x exists
+      So, the statements can be written as:
+      A. (A(x) ∧ W(x)) → P(x)
+      B. ¬A(x) → I(x)
+      C. ¬W(x) → M(x)
+      D. ¬P(x)
+      E. E(x) → (¬M(S) ∧ ¬I(S))
+      Solution:
+      Using Modus tollens on A and D,
+      ¬P
+      (A ∧ W) → P
+      = ¬(A ∧ W)
+      Using De Morgan's law on ¬(A ∧ W),
+      = ¬(A ∧ W) 
+      = ¬A ∨ ¬W 
+      Using Commutative law on ¬A ∨ ¬W,
+      = ¬W ∨ ¬A -- F.
+      Converting B to its logical equivalent,
+      ¬A → I
+      =  A ∨ I -- G.
+      Converting C to its logical equivalent,
+      ¬W → M
+      = W ∨ M -- H.
+      Using Resolution on F and H,
+      W ∨ M
+      ¬W ∨ ¬A
+      = M ∨ ¬A 
+      Using Commutative law on M ∨ ¬A,
+      ¬A ∨ M -- I.
+      Using Resolution on G and I,
+      A ∨ I
+      ¬A ∨ M
+      = I ∨ M
+      Using De Morgan's law on  I ∨ M,
+      I ∨ M 
+      = ¬(I ∨ M) 
+      = ¬I ∧ ¬M
+      Using Modus tollens on  ¬I ∧ ¬M,
+      ¬(¬I ∧ ¬M)
+      E → (¬I ∧ ¬M)
+      = ¬E
+      Finals Answer:
+      Argument is VALID.
