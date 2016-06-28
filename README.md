@@ -251,11 +251,11 @@ Answer: ∃x∀y¬L(y,x)
 	      E(x) - x exists
 	      
       So, the statements can be written as:
-      A. (A(x) ∧ W(x)) → P(x)
-      B. ¬A(x) → I(x)
-      C. ¬W(x) → M(x)
-      D. ¬P(x)
-      E. E(x) → (¬M(S) ∧ ¬I(S))
+      A. (A ∧ W) → P
+      B. ¬A → I
+      C. ¬W → M
+      D. ¬P
+      E. E → (¬M ∧ ¬I)
       
       Solution:
       Using Modus tollens on A and D,
