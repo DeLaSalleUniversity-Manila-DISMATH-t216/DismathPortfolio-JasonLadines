@@ -322,3 +322,18 @@ I was asked if who is x in the statement. I was able to answer it by saying that
 
 After the example, we proceeded to discuss about instantiation. Instantiation is a rule of inference that is used to conclude that if x is part of the domain X, then if X is true, then x is true. An example is if there are houses with the same blueprint wherein the domain is all the houses in a street, picking a certain house within that domain is an instantiation.
 
+The last exercise we did for the day was the Chapter 1.6 end chapter questions. The question that I was able to answer was:
+
+4.) What rule of inference is used in each of these arguments?
+a.) Kangaroos live in Australia and are marsupials. Therefore, kangaroos are marsupials.
+Answer: Simplification
+
+The meeting ended with Sir giving as a homework for the next meeting.
+
+##Assignment No. 3
+###Chapter 1.7
+7.) Use a direct proof to show that every odd integer is the difference of two squares.
+Answer:
+
+21.) Let P(n) be the proposition "If a and b are positive real numbers, then (a + b)^n >= a^n + b^n." Prove that P(1) is true. What kind of proof did you use?
+Answer:
