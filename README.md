@@ -294,3 +294,31 @@ Answer: ∃x∀y¬L(y,x)
       
       Final Answer:
       Argument is VALID.
+
+#Week 4
+##(June 28, 2016)
+
+We started the first meeting of the week with answering the homework about superman given last week. Each of us were asked a question about the problem. The questions asked to me were how to show the logic of the following sentences:
+
+| Sentence                                                           | Logic       |
+|--------------------------------------------------------------------|-------------|
+| If Superman were able and willing to prevent evil, he would do so. | (A ∧ W) → P |
+| Superman does not prevent evil.                                    | ¬P          |
+
+To be familiarized with how to solve problems using the rules of inference, we first discusssed about Example 7 from Chapter 1.6.
+
+After using the rules of inference on an example, we used it to solve the latter problem. To continue, each of us were asked a question step-by-step. The question asked to me was how to continue the process from where AJ left off. The answer I gave was to use Resolution on A ∨ I and ¬A ∨ M after using  Commutative law on M ∨ ¬A . After doing Resolution, the answer will be  I ∨ M.
+
+After solving the problem, we have concluded that the conclusion, "Superman does not exist," is True.
+
+We continued using the rules of inference on the discussion by coming up with an exercise. The statement is, "If you do every problem in this book, you learned mathematics. If you learned mathematics, then you did every problem in this book." This statement is proven to be false since the use of a truth table and rules of inference can't prove it. This problem introduced us to the term fallacy. Afallacy is an incorrect reasoning which involves the thinking that p → q is the same with its converse q → p.
+
+The discussion continued to Example 12 in Chapter 1.6. 
+
+Example 12
+Show that the premises "Everyone in this discrete mathematics class has taken a course in computer science" and "Marla is a student in this class" imply the conclusion "Marla has taken a couse in computer science."
+
+I was asked if who is x in the statement. I was able to answer it by saying that x is all the students.
+
+After the example, we proceeded to discuss about instantiation. Instantiation is a rule of inference that is used to conclude that if x is part of the domain X, then if X is true, then x is true. An example is if there are houses with the same blueprint wherein the domain is all the houses in a street, picking a certain house within that domain is an instantiation.
+
